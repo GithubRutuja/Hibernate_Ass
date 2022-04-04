@@ -1,6 +1,7 @@
 package Entity;
 import javax.persistence.*; 
-@Entitypublic class Catalog { 
+@Entity
+public class Catalog { 
   @Id 
   @GeneratedValue(strategy = GenerationType.AUTO) 
   private int id; 
